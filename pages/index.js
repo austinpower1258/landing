@@ -6,14 +6,13 @@ import { Gallery } from './components/Gallery';
 
 export default function Home() {
   return (
-    <div>
+    <div className="max-h-screen items-center bg-blue-900 overflow-hidden">
       <Head>
         <title>Landing</title>
       </Head>
+      <Navbar className="fixed" />
 
-      <Navbar />
-
-      <main className="flex items-center justify-center flex-wrap content-around bg-blue-900 md:flex-row p-8">
+      <main className="flex min-h-screen content-center items-center justify-center flex-wrap content-around bg-blue-900">
         <div>
           <Image src={austin_pfp} className="object-cover shadow rounded-full max-w-full h-auto align-middle border-none" height={256} width={256} alt="Austin Wang" />
         </div>
@@ -23,21 +22,18 @@ export default function Home() {
           </h1>
           <p className="text-xl font-sm text-white font-mono px-8">
             - Yale Physics, Computer Science, and Economics
-
+          </p>
+          <p className="text-xl font-sm text-white font-mono px-8">
+            - Experienced Developer and Problem Solver
           </p>
           <p className="text-xl font-sm text-white font-mono px-8">
             - Travel and Food Enthusiast
           </p>
         </div>
-      </main >
-
-      <main className="flex items-center justify-center flex-wrap content-around bg-blue-900 font-sm text-white font-mono">
-        <div className="md:flex-row p-4">
-          Currently building a more realistic metaverse of our world. Check out my <a href="/blog" className="font-semibold hover:underline">blog</a>.
+        <div className="p-4 font-sm text-white font-mono">
+          Currently building a more realistic metaverse. Check out my <a href="/blog" className="font-semibold hover:underline">blog</a>.
         </div>
-      </main>
-
-      <Gallery />
+      </main >
 
     </div >
   )
