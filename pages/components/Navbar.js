@@ -24,25 +24,25 @@ export const Navbar = () => {
                         </a>
                     </Link>
 
-                    <Link href="/education">
+                    <Link href="../education">
                         <a className='inline-flex items-center mr-8 px-8 hover:bg-blue-700'>
                             <h1 className='text-md p-2 text-white font-mono tracking-wide'>Education</h1>
                         </a>
                     </Link>
 
-                    <Link href="/projects">
+                    <Link href="../projects">
                         <a className='inline-flex items-center mr-8 px-8 hover:bg-blue-700'>
                             <h1 className='text-md p-2 text-white font-mono tracking-wide'>Projects</h1>
                         </a>
                     </Link>
 
-                    <Link href="/experience">
+                    <Link href="../experience">
                         <a className='inline-flex items-center mr-8 px-8 hover:bg-blue-700'>
                             <h1 className='text-md p-2 text-white font-mono tracking-wide'>Experience</h1>
                         </a>
                     </Link>
 
-                    <Link href="/blog">
+                    <Link href="../blog">
                         <a className='inline-flex items-center mr-8 px-8 hover:bg-blue-700'>
                             <h1 className='text-md p-2 text-white font-mono tracking-wide'>Blog</h1>
                         </a>
