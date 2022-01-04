@@ -1,5 +1,8 @@
-import Head from 'next/head'
-import { Navbar } from './components/Navbar'
+import Head from 'next/head';
+import { Navbar } from './components/Navbar';
+import austin_pfp from './resources/austin.JPEG';
+import Image from 'next/Image';
+import { Gallery } from './components/Gallery';
 
 export default function Home() {
   return (
@@ -10,20 +13,32 @@ export default function Home() {
 
       <Navbar />
 
-      <main className="flex items-center flex-wrap justify-between bg-blue-200 md:flex-row px-3 p-1">
-
-        <h1 className="font-bold font-serif">
-          austin
-        </h1>
-
-        <p>
-
-        </p>
-
+      <main className="flex items-center justify-center flex-wrap content-around bg-blue-900 md:flex-row p-8">
         <div>
+          <Image src={austin_pfp} className="object-cover shadow rounded-full max-w-full h-auto align-middle border-none" height={256} width={256} alt="Austin Wang" />
+        </div>
+        <div>
+          <h1 className="text-6xl font-bold text-white font-sans px-8 py-4">
+            Hi, I&apos;m Austin Wang
+          </h1>
+          <p className="text-xl font-sm text-white font-mono px-8">
+            - Yale Physics, Computer Science, and Economics
 
+          </p>
+          <p className="text-xl font-sm text-white font-mono px-8">
+            - Travel and Food Enthusiast
+          </p>
+        </div>
+      </main >
+
+      <main className="flex items-center justify-center flex-wrap content-around bg-blue-900 font-sm text-white font-mono">
+        <div className="md:flex-row p-4">
+          Currently building a more realistic metaverse of our world. Check out my <a href="/blog" className="font-semibold hover:underline">blog</a>.
         </div>
       </main>
+
+      <Gallery />
+
     </div >
   )
 }
