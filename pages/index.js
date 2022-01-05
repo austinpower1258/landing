@@ -2,7 +2,6 @@ import Head from 'next/head';
 import { Navbar } from './components/Navbar';
 import austin_pfp from './resources/austin.JPEG';
 import Image from 'next/Image';
-import { Gallery } from './components/Gallery';
 
 export default function Home() {
   return (
