@@ -5,7 +5,7 @@ export default function Blog() {
 
         <div>
             <Navbar />
-            Blog
+            To be released soon...
         </div>
 
     )

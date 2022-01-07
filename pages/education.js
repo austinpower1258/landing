@@ -16,7 +16,7 @@ export default function Education() {
                 </h1>
             </div>
             <div className="flex justify-center p-2">
-                <div className="flex flex-col md:flex-row md:max-w-3xl rounded-lg bg-white shadow-lg px-6">
+                <div className="flex flex-col md:flex-row md:max-w-3xl rounded-lg bg-white shadow-2xl hover:bg-green-100 hover:shadow-green-500/50 px-6">
                     <Image src={yale} className="w-full object-scale-down rounded-t-lg md:rounded-none md:rounded-l-lg" height={128} width={128} alt="Yale" />
                     <div className="p-6 flex flex-col justify-start">
                         <h5 className="text-gray-900 text-xl font-medium mb-2">Yale University (2021 - Present)</h5>
@@ -30,7 +30,7 @@ export default function Education() {
             </div>
 
             <div className="flex justify-center p-2">
-                <div className="flex flex-col md:flex-row md:max-w-3xl rounded-lg bg-white shadow-lg px-6">
+                <div className="flex flex-col md:flex-row md:max-w-3xl rounded-lg bg-white shadow-2xl hover:bg-purple-100 hover:shadow-indigo-500/50 px-6">
                     <Image src={nhs} className="w-full object-scale-down rounded-t-lg md:rounded-none md:rounded-l-lg" height={128} width={128} alt="Yale" />
                     <div className="p-6 flex flex-col justify-start">
                         <h5 className="text-gray-900 text-xl font-medium mb-2">Northwood High School (2017 - 2021)</h5>
@@ -45,7 +45,7 @@ export default function Education() {
             </div>
 
             <div className="flex justify-center p-2">
-                <div className="flex flex-col md:flex-row md:max-w-3xl rounded-lg bg-white shadow-lg px-6">
+                <div className="flex flex-col md:flex-row md:max-w-3xl rounded-lg bg-white shadow-2xl hover:bg-orange-100 hover:shadow-orange-500/50 px-6">
                     <Image src={ucsd} className="w-full object-scale-down rounded-t-lg md:rounded-none md:rounded-l-lg" height={128} width={128} alt="Yale" />
                     <div className="p-6 flex flex-col justify-start">
                         <h5 className="text-gray-900 text-xl font-medium mb-2">University of California, San Diego (2019)</h5>
@@ -59,14 +59,14 @@ export default function Education() {
                 </div>
             </div>
 
-            <div className="flex px-8 mr-4 py-4 text-white justify-center items-center">
+            <div className="flex mt-4 py-4 text-white justify-center items-center">
                 <h1 className="text-4xl font-semibold font-sans tracking-wide">
                     Certifications
                 </h1>
             </div>
 
             <div className="flex justify-center p-2">
-                <div className="flex flex-col md:flex-row md:max-w-3xl rounded-lg bg-white shadow-lg p-6">
+                <div className="flex flex-col md:flex-row md:max-w-3xl rounded-lg bg-white shadow-2xl hover:bg-blue-100 hover:shadow-blue-500/50 p-6">
                     <Image src={google} className="w-full object-scale-down rounded-t-lg md:rounded-none md:rounded-l-lg" height={128} width={128} alt="Yale" />
                     <div className="p-6 flex flex-col justify-start">
                         <h5 className="text-gray-900 text-xl font-medium mb-2">Google Data Analytics Professional Certificate</h5>
@@ -79,10 +79,10 @@ export default function Education() {
                 </div>
             </div>
             <div className="flex justify-center p-2">
-                <div className="flex flex-col md:flex-row md:max-w-3xl rounded-lg bg-white shadow-lg p-6">
+                <div className="flex flex-col md:flex-row md:max-w-3xl rounded-lg bg-white shadow-2xl hover:bg-red-100 hover:shadow-red-500/50 p-6">
                     <Image src={stanford} className="w-full object-scale-down rounded-t-lg md:rounded-none md:rounded-l-lg" height={128} width={128} alt="Yale" />
                     <div className="p-6 flex flex-col justify-start">
-                        <h5 className="text-gray-900 text-xl font-medium mb-2">Stanford University Algorithms Specialization &nbsp;</h5>
+                        <h5 className="text-gray-900 text-xl font-medium mb-2">Stanford University Algorithms Specialization&nbsp;</h5>
                         <p className="text-gray-700 text-base mb-4">
                             Credential ID: B2RDYPHCELHG
                         </p>
