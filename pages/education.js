@@ -1,5 +1,5 @@
-import { Navbar } from "./components/Navbar";
-import Image from "next/Image";
+import { Navbar } from "../components/navbar";
+import Image from "next/image";
 import yale from "./resources/yale.png";
 import ucsd from "./resources/ucsd.png";
 import nhs from "./resources/nhs.png";

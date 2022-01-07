@@ -1,7 +1,7 @@
 import Head from 'next/head';
-import { Navbar } from './components/Navbar';
+import { Navbar } from '../components/navbar';
 import austin_pfp from './resources/austin.JPEG';
-import Image from 'next/Image';
+import Image from 'next/image';
 import Link from 'next/link';
 
 export default function Home() {

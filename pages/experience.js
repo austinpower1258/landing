@@ -1,5 +1,5 @@
-import { Navbar } from "./components/Navbar"
-import Image from "next/Image";
+import { Navbar } from "../components/navbar";
+import Image from "next/image";
 import musicizer from "./resources/musicizer.png";
 import bestwestern from "./resources/bestwestern.png";
 import yhack from "./resources/yhack.png";

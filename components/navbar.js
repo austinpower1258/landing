@@ -1,9 +1,9 @@
 import Link from 'next/link';
-import logo from '../resources/logo.svg';
-import github_logo from '../resources/github-logo.svg';
-import linkedin_logo from '../resources/linkedin-logo.svg';
-import twitter_logo from '../resources/twitter-logo.svg';
-import Image from 'next/Image';
+import logo from '../pages/resources/logo.svg';
+import github_logo from '../pages/resources/github-logo.svg';
+import linkedin_logo from '../pages/resources/linkedin-logo.svg';
+import twitter_logo from '../pages/resources/twitter-logo.svg';
+import Image from 'next/image';
 
 export const Navbar = () => {
     return (
