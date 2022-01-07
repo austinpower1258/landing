@@ -2,6 +2,7 @@ import Head from 'next/head';
 import { Navbar } from './components/Navbar';
 import austin_pfp from './resources/austin.JPEG';
 import Image from 'next/Image';
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -30,7 +31,7 @@ export default function Home() {
           </p>
         </div>
         <div className="p-4 font-sm text-white font-mono">
-          Currently building a more realistic metaverse. Check out my <a href="/blog" className="font-semibold hover:underline">blog</a>.
+          Currently building a more realistic metaverse. Check out my <Link href="/blog">blog</Link>.
         </div>
       </main >
 
