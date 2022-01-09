@@ -95,7 +95,7 @@ const renderBlock = (block) => {
       const caption = value.caption ? value.caption[0].plain_text : "";
       return (
         <figure>
-          <img src={src} alt={caption} />
+          <Image src={src} alt={caption} />
           {caption && <figcaption>{caption}</figcaption>}
         </figure>
       );
