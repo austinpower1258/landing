@@ -72,8 +72,7 @@ export default function Projects() {
     </div>
     <div className="md:px-10 sh sm:px-5">
       <h1 className="text-gray-800 font-bold text-2xl my-3 mt-6 hover:text-blue-700"><Link href="https://github.com/austinpower1258/strauss">Real Time Collaborative Editor with Presence</Link></h1>
-      <p className="text-gray-700 mb-2 md:mb-6">Used Svelte and TailwindCSS to build a collaborative editor with presence, including file system tree stored in database.
-▪ Developed websocket server to facilitate open collaboration from different IP&apos;s and devices on a host server.
+      <p className="text-gray-700 mb-2 md:mb-6">Used Svelte and TailwindCSS to build a collaborative editor with presence, including file system tree stored in database. Developed websocket server to facilitate open collaboration from different IP&apos;s and devices on a host server.
 </p>
       <div className="flex justify-between mb-2">
         <span className="font-thin text-sm">Jun 2021</span>
