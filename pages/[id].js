@@ -4,6 +4,7 @@ import { getDatabase, getPage, getBlocks } from "../lib/notion";
 import Link from "next/link";
 import { databaseId } from "./index.js";
 import styles from "./post.module.css";
+import Image from "next/image";
 
 export const Text = ({ text }) => {
   if (!text) {
@@ -24,6 +25,7 @@ export const Text = ({ text }) => {
           underline ? styles.underline : "",
         ].join(" ")}
         style={color !== "default" ? { color } : {}}
+        key={value}
       >
         {text.link ? <a href={text.link.url}>{text.content}</a> : text.content}
       </span>
@@ -139,7 +141,7 @@ export default function Post({ page, blocks }) {
 }
 
 export const getStaticPaths = async () => {
-  const database = await getDatabase(databaseId);
+  const database = await getDatabase("1ba522e2319b470fa4643b1ff51cdf04");
   return {
     paths: database.map((page) => ({ params: { id: page.id } })),
     fallback: true,
