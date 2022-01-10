@@ -10,6 +10,7 @@ export const Text = ({ text }) => {
   if (!text) {
     return null;
   }
+
   return text.map((value) => {
     const {
       annotations: { bold, code, color, italic, strikethrough, underline },
@@ -27,7 +28,7 @@ export const Text = ({ text }) => {
         style={color !== "default" ? { color } : {}}
         key={value}
       >
-        {text.link ? <a href={text.link.url}>{text.content}</a> : text.content}
+        {text.link ? <img className="object-scale-down p-2" src={text.link.url}></img> : text.content}
       </span>
     );
   });
@@ -97,7 +98,7 @@ const renderBlock = (block) => {
       const caption = value.caption ? value.caption[0].plain_text : "";
       return (
         <figure>
-          <Image src={src} alt={caption} />
+          <img src={src} alt={caption} />
           {caption && <figcaption>{caption}</figcaption>}
         </figure>
       );
