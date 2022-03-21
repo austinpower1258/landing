@@ -8,9 +8,9 @@ import stanford from "./resources/stanford.png";
 
 export default function Education() {
     return (
-        <div className="min-h-screen bg-blue-900">
+        <div className="min-h-screen bg-black">
             <Navbar />
-            <div className="flex px-8 mr-4 p-4 text-white justify-center items-center">
+            <div className="mt-4 flex px-8 mr-4 p-4 text-white justify-center items-center">
                 <h1 className="text-4xl font-semibold font-sans tracking-wide">
                     Education
                 </h1>

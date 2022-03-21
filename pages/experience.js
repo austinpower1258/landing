@@ -12,9 +12,9 @@ import ycs from "./resources/ycs.png";
 export default function Experience() {
     return (
 
-        <div className="min-h-screen bg-blue-900">
+        <div className="min-h-screen bg-black">
             <Navbar />
-            <div className="flex px-8 mr-4 p-4 text-white justify-center items-center">
+            <div className="flex mt-4 px-8 mr-4 p-4 text-white justify-center items-center">
                 <h1 className="text-4xl font-semibold font-sans tracking-wide">
                     Work Experience
                 </h1>
@@ -66,7 +66,7 @@ export default function Experience() {
                 </h1>
             </div>
 
-           <div className="flex justify-center p-2">
+            <div className="flex justify-center p-2">
                 <div className="flex flex-col md:flex-row md:max-w-3xl rounded-lg bg-white shadow-2xl hover:bg-yellow-100 hover:shadow-yellow-500/50 px-6 py-2">
                     <Image src={yhack} className="w-full object-scale-down rounded-t-lg md:rounded-none md:rounded-l-lg" height={128} width={128} alt="Yale" />
                     <div className="p-6 flex flex-col justify-start">
@@ -134,7 +134,7 @@ export default function Experience() {
                     </div>
                 </div>
             </div>
-            
+
             <div className="p-2">
 
             </div>

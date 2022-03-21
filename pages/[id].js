@@ -2,9 +2,7 @@ import { Fragment } from "react";
 import Head from "next/head";
 import { getDatabase, getPage, getBlocks } from "../lib/notion";
 import Link from "next/link";
-import { databaseId } from "./index.js";
 import styles from "./post.module.css";
-import Image from "next/image";
 
 export const Text = ({ text }) => {
   if (!text) {
@@ -107,9 +105,8 @@ const renderBlock = (block) => {
     case "quote":
       return <blockquote key={id}>{value.text[0].plain_text}</blockquote>;
     default:
-      return `❌ Unsupported block (${
-        type === "unsupported" ? "unsupported by Notion API" : type
-      })`;
+      return `❌ Unsupported block (${type === "unsupported" ? "unsupported by Notion API" : type
+        })`;
   }
 };
 

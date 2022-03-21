@@ -8,7 +8,7 @@ import Image from 'next/image';
 export const Navbar = () => {
     return (
         <>
-            <nav className='flex items-center flex-wrap justify-between bg-blue-900 md:flex-row px-3'>
+            <nav className='flex items-center flex-wrap justify-between bg-gray-800 md:flex-row px-3'>
                 <Link href='/'>
                     <a className='inline-flex items-center p-2 mr-4 '>
                         <Image src={logo} height={50} width={50} alt="Austin Wang" />
