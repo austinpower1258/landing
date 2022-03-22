@@ -1,12 +1,10 @@
 import Link from 'next/link';
 import logo from '../pages/resources/logo.svg';
-
 import Image from 'next/image';
 
 export const Navbar = () => {
     return (
         <>
-
             <nav className='flex items-center justify-center place-content-center bg-gray-800 md:flex-row px-3'>
                 <div>
                     <Link href='/'>
