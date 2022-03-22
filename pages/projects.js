@@ -18,7 +18,7 @@ export default function Projects() {
         </h1>
       </div>
       <main className="py-6 md:px-20 sm:px-14 px-6">
-        <div className="sm:flex items-center shadow-md bg-black">
+        <div className="p-6 sm:flex items-center shadow-md bg-black">
           <div className="md:px-10 sm:px-5">
             <h1 className="text-gray-800 font-bold text-2xl my-2 hover:text-blue-700"><Link href="https://github.com/austinpower1258/Musicizer">Musicizer</Link></h1>
             <p className="text-gray-700 mb-2 md:mb-6">Musicizer is a lifestyle-driven, complimentary music-streaming Flutter application that uses real-time tempo modification of music synced with physical intensity to incentivize running at a consistent pace.</p>
@@ -70,8 +70,8 @@ export default function Projects() {
           <div>
             <Image className="bg-cover" src={docs} alt="" />
           </div>
-          <div className="md:px-10 sh sm:px-5">
-            <h1 className="mt-3 text-gray-800 text-2xl font-bold my-3"><Link href="https://github.com/austinpower1258/strauss">Real Time Collaborative Editor with Presence</Link></h1>
+          <div className="p-6 md:px-10 sh sm:px-5">
+            <h1 className=" text-gray-800 text-2xl font-bold my-3"><Link href="https://github.com/austinpower1258/strauss">Real Time Collaborative Editor with Presence</Link></h1>
             <p className="text-gray-700 mb-2 md:mb-6">Used Svelte and TailwindCSS to build a collaborative editor with presence, including file system tree stored in database. Developed websocket server to facilitate open collaboration from different IP&apos;s and devices on a host server.
             </p>
             <div className="flex justify-between mb-2">
