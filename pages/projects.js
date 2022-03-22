@@ -56,7 +56,7 @@ export default function Projects() {
           </div>
           <div className="shadow-md bg-black">
             <Image src={blackhole} alt="" />
-            <div className="px-4">
+            <div className="px-6">
               <h1 className="mt-3 text-gray-800 text-2xl font-bold my-3"><Link href="yale.edu">The First Black Hole Image by the Event Horizon Telescope &nbsp;</Link></h1>
               <p className="text-gray-700 mb-2 py-1">The first image of a supermassive black hole at the center of the Messier 87 galaxy was successfully imaged by the Event Horizon Telescope in 2017, released in April 2019. My paper aims to synthesize various areas of black hole research and future implications of black hole imaging on our fundamental understanding of gravity & the universe.</p>
               <div className="flex justify-between mt-6">
