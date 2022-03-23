@@ -9,7 +9,7 @@ import twitter_logo from '../pages/resources/twitter-logo.svg';
 
 export default function Home() {
   return (
-    <div className="bg-black content-center">
+    <div className="bg-black min-h-screen content-center">
       <Head>
         <title>Landing</title>
       </Head>
@@ -52,6 +52,7 @@ export default function Home() {
                 <Image src={twitter_logo} height={24} width={24} alt="Twitter" />
               </a>
             </Link>
+
           </div>
         </div>
 
