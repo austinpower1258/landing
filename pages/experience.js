@@ -15,7 +15,7 @@ import chesscom from "./resources/chesscom.png";
 export default function Experience() {
     return (
 
-        <div className="min-h-screen bg-black">
+        <div className="min-h-screen bg-gray-800">
             <Navbar />
             <div className="flex mt-4 px-8 mr-4 p-4 text-white justify-center items-center">
                 <h1 className="text-4xl font-semibold font-sans tracking-wide">
