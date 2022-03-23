@@ -18,7 +18,7 @@ export default function Experience() {
         <div className="min-h-screen bg-gray-800">
             <Navbar />
             <div className="flex mt-4 px-8 mr-4 p-4 text-white justify-center items-center">
-                <h1 className="text-4xl font-semibold font-sans tracking-wide">
+                <h1 className="text-4xl font-bold">
                     Work Experience
                 </h1>
             </div>

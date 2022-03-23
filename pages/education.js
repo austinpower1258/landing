@@ -11,7 +11,7 @@ export default function Education() {
         <div className="min-h-screen bg-gray-800">
             <Navbar />
             <div className="mt-4 flex px-8 mr-4 p-4 text-white justify-center items-center">
-                <h1 className="text-4xl font-semibold font-sans tracking-wide">
+                <h1 className="text-4xl font-bold font-sans">
                     Education
                 </h1>
             </div>
