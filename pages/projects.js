@@ -76,7 +76,7 @@ export default function Projects() {
             </p>
             <div className="flex justify-between mb-2">
               <span className="font-thin text-sm">Jun 2021</span>
-              <span className="sm:block hidden mb-2 text-gray-800 font-bold py-4 hover:underline"><Link href="https://twitter.com/austinywang/status/1424288644181893122?s=20">See demo</Link></span>
+              <span className="mb-2 py-4 text-gray-800 font-bold hover:underline"><Link href="https://twitter.com/austinywang/status/1424288644181893122?s=20">See demo</Link></span>
             </div>
           </div>
         </div>

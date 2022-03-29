@@ -15,7 +15,7 @@ import chesscom from "./resources/chesscom.png";
 export default function Experience() {
     return (
 
-        <div className="min-h-screen bg-gray-800">
+        <div className="min-h-screen bg-black-800">
             <Navbar />
             <div className="flex mt-4 px-8 mr-4 p-4 text-white justify-center items-center">
                 <h1 className="text-4xl font-bold">
@@ -23,7 +23,7 @@ export default function Experience() {
                 </h1>
             </div>
             <div className="flex justify-center p-2">
-                <div className="flex mt-4 md:flex-row md:max-w-3xl rounded-lg bg-white shadow-2xl hover:bg-purple-100 hover:shadow-purple-500/50 px-6 py-2">
+                <div className="flex mt-4 md:flex-row md:max-w-3xl rounded-lg bg-white shadow-2xl hover:bg-orange-100 hover:shadow-orange-500/50 px-6 py-2">
                     <Image src={chesscom}
                         className="w-full object-scale-down rounded-t-lg md:rounded-none md:rounded-l-lg" height={128} width={128} alt="Chess.com" />
                     <div className="p-6 flex flex-col justify-start">
@@ -83,7 +83,7 @@ export default function Experience() {
             </div>
 
             <div className="flex justify-center p-2">
-                <div className="flex md:flex-row md:max-w-3xl rounded-lg bg-white shadow-2xl hover:bg-yellow-100 hover:shadow-yellow-500/50 px-6 py-2">
+                <div className="flex md:flex-row md:max-w-3xl rounded-lg bg-white shadow-2xl hover:bg-blue-100 hover:shadow-blue-500/50 px-6 py-2">
                     <Image src={yucg} className="w-full object-scale-down rounded-t-lg md:rounded-none md:rounded-l-lg" height={128} width={128} alt="Yale" />
                     <div className="p-6 flex flex-col justify-start">
                         <h5 className="text-gray-900 text-xl font-medium mb-2">Business Analyst (Jan 2022 - Present)&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h5>
@@ -96,7 +96,7 @@ export default function Experience() {
                 </div>
             </div>
             <div className="flex justify-center p-2">
-                <div className="flex md:flex-row md:max-w-3xl rounded-lg bg-white shadow-2xl hover:bg-yellow-100 hover:shadow-yellow-500/50 px-6 py-2">
+                <div className="flex md:flex-row md:max-w-3xl rounded-lg bg-white shadow-2xl hover:bg-gray-100 hover:shadow-gray-500/50 px-6 py-2">
                     <Image src={upfund} className="w-full object-scale-down rounded-t-lg md:rounded-none md:rounded-l-lg" height={128} width={128} alt="Yale" />
                     <div className="p-6 flex flex-col justify-start">
                         <h5 className="text-gray-900 text-xl font-medium mb-2">Investment Analyst (Feb 2022 - Present) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h5>
