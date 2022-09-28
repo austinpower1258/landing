@@ -19,7 +19,7 @@ export default function Education() {
                 <div className="flex md:flex-row md:max-w-3xl rounded-lg bg-white shadow-2xl hover:bg-green-100 hover:shadow-green-500/50 px-6">
                     <Image src={yale} className="w-full object-scale-down rounded-t-lg md:rounded-none md:rounded-l-lg" height={128} width={128} alt="Yale" />
                     <div className="p-6 flex flex-col justify-start">
-                        <h5 className="text-gray-900 text-xl font-medium mb-2">Yale University (2021 - Present)</h5>
+                        <h5 className="text-gray-900 text-xl font-medium mb-2">Yale University</h5>
                         <p className="text-gray-700 text-base mb-2">
                             B.S. in Physics, Computer Science and Economics
                         </p>
@@ -33,7 +33,7 @@ export default function Education() {
                 <div className="flex md:flex-row md:max-w-3xl rounded-lg bg-white shadow-2xl hover:bg-purple-100 hover:shadow-indigo-500/50 px-6">
                     <Image src={nhs} className="w-full object-scale-down rounded-t-lg md:rounded-none md:rounded-l-lg" height={128} width={128} alt="Yale" />
                     <div className="p-6 flex flex-col justify-start">
-                        <h5 className="text-gray-900 text-xl font-medium mb-2">Northwood High School (2017 - 2021)</h5>
+                        <h5 className="text-gray-900 text-xl font-medium mb-2">Northwood High School</h5>
                         <p className="text-gray-700 text-base mb-2">
                             High School Diploma (Summa Cum Laude)
                         </p>
