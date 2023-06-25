@@ -21,7 +21,7 @@ export default function Experience() {
         <div className="min-h-screen bg-black-800">
             <Navbar />
             <div className="flex mt-4 px-8 mr-4 p-4 text-white justify-center items-center">
-                <h1 className="text-4xl font-bold">
+                <h1 className="text-4xl font-bold mt-6">
                     Professional Experience
                 </h1>
             </div>
@@ -140,7 +140,7 @@ export default function Experience() {
                 <div className="flex md:flex-row md:max-w-3xl rounded-lg shadow-2xl px-6 py-2">
                     <Image src={yso} className="w-full object-scale-down rounded-t-lg md:rounded-none md:rounded-l-lg" height={128} width={128} alt="YES" />
                     <div className="p-6 flex flex-col justify-start">
-                        <h5 className="text-gray-300 text-xl font-medium mb-2">Executive Tour Liason (Mar 2023 - Present) &nbsp;&nbsp;</h5>
+                        <h5 className="text-gray-300 text-xl font-medium mb-2">Executive Tour Liaison (Mar 2023 - Present) &nbsp;&nbsp;</h5>
                         <p className="text-gray-400 text-base mb-2">
                             Yale Symphony Orchestra
                         </p>

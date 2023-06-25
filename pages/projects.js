@@ -13,7 +13,7 @@ export default function Projects() {
     <div className="min-h-screen bg-gray-800">
       <Navbar />
       <div className="flex px-8 mr-4 p-4 text-white justify-center items-center">
-        <h1 className="mt-4 text-4xl font-bold">
+        <h1 className="mt-10 text-4xl font-bold">
           Projects
         </h1>
       </div>
