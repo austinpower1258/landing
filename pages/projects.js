@@ -1,7 +1,7 @@
 import { Navbar } from "../components/navbar";
 import Image from "next/image";
 import Link from "next/link";
-import musicizer from "./resources/musicizer.png";
+import musicizer from "./resources/musicizer.jpeg";
 import computervision from "./resources/computervision.jpg";
 import nif2020 from './resources/t17img.png';
 import blackhole from './resources/blackhole.png';
