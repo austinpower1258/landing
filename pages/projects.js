@@ -18,7 +18,7 @@ export default function Projects() {
         </h1>
       </div>
       <main className="py-6 md:px-20 sm:px-14 px-6">
-        <div className="p-6 sm:flex items-center shadow-md bg-gray-800">
+        <div className="p-6 sm:flex items-center shadow-md bg-black border border-color">
           <div className="md:px-10 sm:px-5">
             <h1 className="text-gray-800 font-bold text-2xl my-2 hover:text-blue-700"><Link href="https://github.com/austinpower1258/Musicizer">Musicizer</Link></h1>
             <p className="text-gray-500 mb-2 md:mb-6">Musicizer is a lifestyle-driven, complimentary music-streaming Flutter application that uses real-time tempo modification of music synced with physical intensity to incentivize running at a consistent pace.</p>
@@ -32,7 +32,7 @@ export default function Projects() {
           </div>
         </div>
         <div className="mt-6 md:flex space-x-6">
-          <div className="shadow-md bg-gray-800">
+          <div className="shadow-md bg-black border">
             <Image src={computervision} width={450} height={325} alt="" />
             <div className="px-6">
               <h1 className="mt-3 text-gray-800 text-2xl font-bold my-2"><Link href="https://www.bestwestern.com/en_US.html">Automated Social Distancing Tracker in Hotels</Link></h1>
@@ -43,7 +43,7 @@ export default function Projects() {
               </div>
             </div>
           </div>
-          <div className="shadow-md bg-gray-800">
+          <div className="shadow-md bg-black border">
             <Image className="" src={nif2020} alt="" />
             <div className="px-6">
               <h1 className="mt-3 text-gray-800 text-2xl font-bold my-2"><Link href="https://yspa.yale.edu/">Supernovae Research</Link></h1>
@@ -54,7 +54,7 @@ export default function Projects() {
               </div>
             </div>
           </div>
-          <div className="shadow-md bg-gray-800">
+          <div className="shadow-md bg-black border">
             <Image src={blackhole} alt="" />
             <div className="px-6">
               <h1 className="mt-3 text-gray-800 text-2xl font-bold my-3"><Link href="https://yale.edu">The First Black Hole Image by the Event Horizon Telescope &nbsp;</Link></h1>
@@ -66,7 +66,7 @@ export default function Projects() {
             </div>
           </div>
         </div>
-        <div className="sm:flex items-center bg-gray-800 shadow-md mt-10">
+        <div className="sm:flex items-center bg-black border shadow-md mt-10">
           <div>
             <Image className="bg-cover" src={docs} alt="" />
           </div>
