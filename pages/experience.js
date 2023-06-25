@@ -30,7 +30,7 @@ export default function Experience() {
                     <Image src={jpl}
                         className="w-full object-scale-down rounded-t-lg md:rounded-none md:rounded-l-lg" height={144} width={144} alt="NASA JPL" />
                     <div className="p-6 flex flex-col justify-start">
-                        <h5 className="text-gray-300 text-xl font-medium mb-2">Software Developer Intern (June 2023 - Present)</h5>
+                        <h5 className="text-gray-300 text-xl font-medium mb-2">Software Developer Intern (Jun 2023 - Present)</h5>
                         <p className="text-gray-400 text-base mb-2">
                             NASA Jet Propulsion Laboratory                    </p>
                         <p className="text-gray-400 text-sm mb-2">Pasadena, CA</p>
