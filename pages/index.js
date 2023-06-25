@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import { Navbar } from '../components/navbar';
-import austin_pfp from './resources/austin-wang.jpg';
+import austin_pfp from './resources/austinwang.jpg';
 import Image from 'next/image';
 import Link from "next/link";
 import github_logo from '../pages/resources/github-logo.svg';
@@ -29,10 +29,10 @@ export default function Home() {
             - Yale Physics, Computer Science, and Economics
           </p>
           <p className="text-xl font-sm text-white text-gray-600 px-8">
-            - Experienced Developer and Problem Solver
+            - Experienced Leader and Problem Solver
           </p>
           <p className="text-xl font-sm text-white text-gray-600 px-8">
-            - Travel and Food Enthusiast
+            - Violinist, Inventor, and Foodie
           </p>
           <div className="flex px-8 py-4 items-center">
             <Link href='https://www.github.com/austinpower1258'>
@@ -59,7 +59,7 @@ export default function Home() {
       </main >
 
       <div className=" p-8 flex place-content-center font-sm text-white text-gray-600">
-        Interested in Software Development, the Metaverse, Web3, Crypto, Fintech, and Startups.
+        Building bold beliefs into 10x breakthroughs for a better world. 
       </div>
     </div >
   )
