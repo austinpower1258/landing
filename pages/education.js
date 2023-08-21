@@ -74,7 +74,7 @@ export default function Education() {
                             Credential ID: 3JE3YN4Y5VNP
                         </p>
 
-                        <p className="text-gray-400 text-sm hover:underline text-heavy"><a href="https://drive.google.com/drive/folders/1dhPedlnYVRtKeK0o0aJ58TnQ2dGDEh_8?usp=sharing">See credential</a></p>
+                        <p className="text-gray-400 text-sm hover:underline text-heavy"><a href="https://drive.google.com/drive/folders/1dhPedlnYVRtKeK0o0aJ58TnQ2dGDEh_8?usp=sharing" className="hover:text-white">See credential</a></p>
                     </div>
                 </div>
             </div>
@@ -87,8 +87,9 @@ export default function Education() {
                             Credential ID: B2RDYPHCELHG
                         </p>
 
-                        <p className="text-gray-400 text-sm hover:underline text-heavy"><a href="https://drive.google.com/drive/folders/1mDxV9433K6pl0G3N_BgsJIJxLoIr7T2B?usp=sharing">See credential</a></p>
+                        <p className="text-gray-400 text-sm hover:underline text-heavy"><a href="https://drive.google.com/drive/folders/1mDxV9433K6pl0G3N_BgsJIJxLoIr7T2B?usp=sharing" className="hover:text-white">See credential</a></p>
                     </div>
+
                 </div>
             </div>
             <div className="p-2">

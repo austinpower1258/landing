@@ -61,7 +61,7 @@ export default function Projects() {
             </div>
           </div>
         </div>
-        <div className="sm:flex items-center bg-black border shadow-md mt-10">
+        <div className="sm:flex items-center bg-black border shadow-md mt-6">
           <div>
             <Image className="bg-cover" src={docs} alt="" />
           </div>
