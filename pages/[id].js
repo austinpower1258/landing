@@ -127,7 +127,10 @@ export default function Post({ page, blocks }) {
         </h1>
         <section>
           {blocks.map((block) => (
-            <Fragment key={block.id}>{renderBlock(block)}</Fragment>
+            <>
+              <Fragment key={block.id}>{renderBlock(block)}</Fragment>
+              <br />
+            </>
           ))}
           <Link href="/blog" legacyBehavior>
             <a className={styles.back}>← Go back</a>
