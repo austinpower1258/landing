@@ -1,54 +1,32 @@
+import { useState } from 'react';
 import Link from 'next/link';
-import logo from '../pages/resources/logo.svg';
 import Image from 'next/image';
+import logo from '../pages/resources/logo.svg';
 
 export const Navbar = () => {
+    const [isOpen, setIsOpen] = useState(false);
+
     return (
-        <>
-            <nav className='flex items-center justify-center place-content-center bg-gray-800 md:flex-row px-3'>
-                <div>
-                    <Link href='/' legacyBehavior>
-                        <a className='inline-flex items-left p-2 mr-16'>
-                            <Image src={logo} height={50} width={50} alt="Austin Wang" />
+        <nav className='bg-gray-800 p-3'>
+            <div className='flex items-center justify-between'>
+                <Link href='/' legacyBehavior>
+                    <a className='inline-flex items-left p-2 md:mr-16'>
+                        <Image src={logo} height={50} width={50} alt="Austin Wang" />
+                    </a>
+                </Link>
 
-                        </a>
-                    </Link>
+                <button className='md:hidden p-2' onClick={() => setIsOpen(!isOpen)}>
+                    &#9776;
+                </button>
+
+                <div className={`mt-2 ${isOpen ? 'block' : 'hidden'} md:flex md:items-center md:justify-center`}>
+                    <Link href="/" legacyBehavior><a className='block text-md text-white tracking-wide py-2 px-8 hover:bg-blue-700 md:inline-block md:mr-8'>Home</a></Link>
+                    <Link href="../education" legacyBehavior><a className='block text-md text-white tracking-wide py-2 px-8 hover:bg-blue-700 md:inline-block md:mr-8'>Education</a></Link>
+                    <Link href="../projects" legacyBehavior><a className='block text-md text-white tracking-wide py-2 px-8 hover:bg-blue-700 md:inline-block md:mr-8'>Projects</a></Link>
+                    <Link href="../experience" legacyBehavior><a className='block text-md text-white tracking-wide py-2 px-8 hover:bg-blue-700 md:inline-block md:mr-8'>Experience</a></Link>
+                    <Link href="../blog" legacyBehavior><a className='block text-md text-white tracking-wide py-2 px-8 hover:bg-blue-700 md:inline-block md:mr-8'>Blog</a></Link>
                 </div>
-
-                <div>
-                    <Link href="/" legacyBehavior>
-                        <a className='inline-flex items-center mr-8 px-8 hover:bg-blue-700'>
-                            <h1 className='text-md p-2 text-white tracking-wide'>Home</h1>
-                        </a>
-                    </Link>
-
-                    <Link href="../education" legacyBehavior>
-                        <a className='inline-flex items-center mr-8 px-8 hover:bg-blue-700'>
-                            <h1 className='text-md p-2 text-white tracking-wide'>Education</h1>
-                        </a>
-                    </Link>
-
-                    <Link href="../projects" legacyBehavior>
-                        <a className='inline-flex items-center mr-8 px-8 hover:bg-blue-700'>
-                            <h1 className='text-md p-2 text-white tracking-wide'>Projects</h1>
-                        </a>
-                    </Link>
-
-                    <Link href="../experience" legacyBehavior>
-                        <a className='inline-flex items-center mr-8 px-8 hover:bg-blue-700'>
-                            <h1 className='text-md p-2 text-white tracking-wide'>Experience</h1>
-                        </a>
-                    </Link>
-
-                    <Link href="../blog" legacyBehavior>
-                        <a className='inline-flex items-center mr-8 px-8 hover:bg-blue-700'>
-                            <h1 className='text-md p-2 text-white tracking-wide'>Blog</h1>
-                        </a>
-                    </Link>
-                </div>
-
-            </nav>
-
-        </>
+            </div>
+        </nav>
     );
 };
