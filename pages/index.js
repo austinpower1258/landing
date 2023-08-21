@@ -17,37 +17,42 @@ export default function Home() {
 
       <main className="p-8 flex bg-black place-content-center mt-16">
         <div className="flex-row">
-          <Image src={austin_pfp} className="object-cover rounded-full" height={256} width={256} alt="Austin Wang" />
-
+          <Image
+            src={austin_pfp}
+            className="object-cover"
+            style={{ width: '256px', height: '256px', borderRadius: '50%' }}
+            height={256}
+            width={256}
+            alt="Austin Wang" />
         </div>
 
         <div>
           <h1 className="text-6xl font-bold text-white px-8 py-4">
             Austin Wang
           </h1>
-          <p className="text-xl font-sm text-white text-gray-600 px-8">
+          <p className="text-xl font-sm text-gray-600 px-8">
             - Yale Physics, Computer Science, and Economics
           </p>
-          <p className="text-xl font-sm text-white text-gray-600 px-8">
+          <p className="text-xl font-sm text-gray-600 px-8">
             - Experienced Leader and Problem Solver
           </p>
-          <p className="text-xl font-sm text-white text-gray-600 px-8">
+          <p className="text-xl font-sm text-gray-600 px-8">
             - Violinist, Inventor, and Foodie
           </p>
           <div className="flex px-8 py-4 items-center">
-            <Link href='https://www.github.com/austinpower1258'>
+            <Link href='https://www.github.com/austinpower1258' legacyBehavior>
               <a className='inline-flex items-center mr-4 '>
                 <Image src={github_logo} height={24} width={24} alt="Github" />
               </a>
             </Link>
 
-            <Link href='https://www.linkedin.com/in/austinwang115/'>
+            <Link href='https://www.linkedin.com/in/austinwang115/' legacyBehavior>
               <a className='inline-flex items-center mr-4 '>
                 <Image src={linkedin_logo} height={24} width={24} alt="Linkedin" />
               </a>
             </Link>
 
-            <Link href='https://twitter.com/austinywang'>
+            <Link href='https://twitter.com/austinywang' legacyBehavior>
               <a className='inline-flex items-center mr-4 '>
                 <Image src={twitter_logo} height={24} width={24} alt="Twitter" />
               </a>
@@ -58,8 +63,9 @@ export default function Home() {
 
       </main >
 
-      <div className=" p-8 flex place-content-center font-sm text-white text-gray-600">
-        Building bold beliefs into 10x breakthroughs for a better world. 
+      <div className="p-8 flex place-content-center font-sm text-gray-600">
+        Building bold beliefs into 10x breakthroughs for a better world. Check out my&nbsp;
+        <a href="../projects" className="underline hover:text-white">projects</a>.
       </div>
     </div >
   )

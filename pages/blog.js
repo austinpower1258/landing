@@ -37,7 +37,7 @@ export default function Blog({ posts }) {
                         return (
                             <li key={post.id} className={styles.post}>
                                 <h3 className={styles.postTitle}>
-                                    <Link href={`/${post.id}`}>
+                                    <Link href={`/${post.id}`} legacyBehavior>
                                         <a>
                                             <Text text={post.properties.Name.title} />
                                         </a>
@@ -45,7 +45,7 @@ export default function Blog({ posts }) {
                                 </h3>
 
                                 <p className={styles.postDescription}>{date}</p>
-                                <Link href={`/${post.id}`}>
+                                <Link href={`/${post.id}`} legacyBehavior>
                                     <a> Read post →</a>
                                 </Link>
                             </li>

@@ -118,7 +118,7 @@ export default function Post({ page, blocks }) {
     <div>
       <Head>
         <title>{page.properties.Name.title[0].plain_text}</title>
-        <link rel="icon" href="/favicon.ico" />
+        <Link rel="icon" href="/favicon.ico" />
       </Head>
 
       <article className={styles.container}>
@@ -129,7 +129,7 @@ export default function Post({ page, blocks }) {
           {blocks.map((block) => (
             <Fragment key={block.id}>{renderBlock(block)}</Fragment>
           ))}
-          <Link href="/blog">
+          <Link href="/blog" legacyBehavior>
             <a className={styles.back}>← Go back</a>
           </Link>
         </section>

@@ -17,7 +17,7 @@ export default function Education() {
             </div>
             <div className="flex justify-center p-2">
                 <div className="flex md:flex-row md:max-w-2xl rounded-l shadow-2xl px-6">
-                    <Image src={yale} className="w-full object-scale-down rounded-t-lg md:rounded-none md:rounded-l-lg" height={400} width={400} alt="Yale" />
+                    <Image src={yale} className="object-scale-down rounded-t-lg md:rounded-none md:rounded-l-lg" height={150} width={150} alt="Yale" />
                     <div className="p-6 flex flex-col justify-start">
                         <h5 className="text-gray-300 text-xl font-medium mb-2">Yale University (2021 - 2025)</h5>
                         <p className="text-gray-400 text-base mb-2">
@@ -31,7 +31,7 @@ export default function Education() {
 
             <div className="flex justify-center p-2">
                 <div className="flex md:flex-row md:max-w-2xl rounded-lg shadow-2xl px-6">
-                    <Image src={nhs} className="w-full object-scale-down rounded-t-lg md:rounded-none md:rounded-l-lg" height={227} width={227} alt="Northwood High School" />
+                    <Image src={nhs} className="object-scale-down rounded-t-lg md:rounded-none md:rounded-l-lg" height={150} width={150} alt="Northwood High School" />
                     <div className="p-6 flex flex-col justify-start">
                         <h5 className="text-gray-300 text-xl font-medium mb-2">Northwood High School (2017 - 2021)</h5>
                         <p className="text-gray-400 text-base mb-2">
@@ -46,7 +46,7 @@ export default function Education() {
 
             <div className="flex justify-center p-2">
                 <div className="flex md:flex-row md:max-w-2xl rounded-lg px-6">
-                    <Image src={ucsd} className="w-full object-scale-down rounded-t-lg md:rounded-none md:rounded-l-lg" height={164} width={164} alt="UC San Diego" />
+                    <Image src={ucsd} className="object-scale-down rounded-t-lg md:rounded-none md:rounded-l-lg" height={150} width={150} alt="UC San Diego" />
                     <div className="p-6 flex flex-col justify-start">
                         <h5 className="text-gray-300 text-xl font-medium mb-2">University of California, San Diego (2019)</h5>
                         <p className="text-gray-400 text-base mb-2">
@@ -67,7 +67,7 @@ export default function Education() {
 
             <div className="flex justify-center p-2">
                 <div className="flex md:flex-row md:max-w-3xl rounded-lg shadow-2xl p-6">
-                    <Image src={google} className="w-full object-scale-down rounded-t-lg md:rounded-none md:rounded-l-lg px-6" height={128} width={128} alt="Google" />
+                    <Image src={google} className="object-scale-down rounded-t-lg md:rounded-none md:rounded-l-lg px-6" height={150} width={150} alt="Google" />
                     <div className="p-6 flex flex-col justify-start">
                         <h5 className="text-gray-300 text-xl font-medium mb-2">Google Data Analytics Professional Certificate</h5>
                         <p className="text-gray-400 text-base mb-4">
@@ -80,7 +80,7 @@ export default function Education() {
             </div>
             <div className="flex justify-center p-2">
                 <div className="flex md:flex-row md:max-w-3xl rounded-lg shadow-2xl">
-                    <Image src={stanford} className="w-full object-scale-down rounded-t-lg md:rounded-none md:rounded-l-lg px-6" height={134} width={134} alt="Stanford" />
+                    <Image src={stanford} className="object-scale-down rounded-t-lg md:rounded-none md:rounded-l-lg px-6" height={150} width={150} alt="Stanford" />
                     <div className="p-6 flex flex-col justify-start">
                         <h5 className="text-gray-300 text-xl font-medium mb-2">Stanford University Algorithms Specialization&nbsp;</h5>
                         <p className="text-gray-400 text-base mb-4">

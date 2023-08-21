@@ -24,7 +24,7 @@ export default function Experience() {
             <div className="flex justify-center p-2">
                 <div className="flex mt-4 md:flex-row md:max-w-2xl rounded-lg shadow-2xl px-6 py-2">
                     <Image src={jpl}
-                        className="w-full object-scale-down rounded-t-lg md:rounded-none md:rounded-l-lg" height={144} width={144} alt="NASA JPL" />
+                        className="object-scale-down rounded-t-lg md:rounded-none md:rounded-l-lg" height={144} width={144} alt="NASA JPL" />
                     <div className="p-6 flex flex-col justify-start">
                         <h5 className="text-gray-300 text-xl font-medium mb-2">Software Developer Intern (Jun 2023 - Aug 2023)</h5>
                         <p className="text-gray-400 text-base mb-2">
@@ -36,7 +36,7 @@ export default function Experience() {
             <div className="flex justify-center p-2">
                 <div className="flex mt-4 md:flex-row md:max-w-2xl rounded-lg shadow-2xl px-6 py-2">
                     <Image src={datacy}
-                        className="w-full object-scale-down rounded-t-lg md:rounded-none md:rounded-l-lg px-16" height={100} width={100} alt="Datacy" />
+                        className="object-scale-down rounded-t-lg md:rounded-none md:rounded-l-lg" height={140} width={140} alt="Datacy" />
                     <div className="p-6 flex flex-col justify-start">
                         <h5 className="text-gray-300 text-xl font-medium mb-2">Machine Learning Engineer Intern (Jan - Apr 2023)</h5>
                         <p className="text-gray-400 text-base mb-2">
@@ -48,7 +48,7 @@ export default function Experience() {
             <div className="flex justify-center p-2">
                 <div className="flex mt-4 md:flex-row md:max-w-3xl rounded-lgshadow-2xl px-6 py-2">
                     <Image src={chesscom}
-                        className="w-full object-scale-down rounded-t-lg md:rounded-none md:rounded-l-lg" height={134} width={134} alt="Chess.com" />
+                        className="object-scale-down rounded-t-lg md:rounded-none md:rounded-l-lg" height={134} width={134} alt="Chess.com" />
                     <div className="p-6 flex flex-col justify-start">
                         <h5 className="text-gray-300 text-xl font-medium mb-2">Software Engineering Intern (May - Sept 2022)</h5>
                         <p className="text-gray-400 text-base mb-2">
@@ -60,7 +60,7 @@ export default function Experience() {
             </div>
             <div className="flex justify-center p-2">
                 <div className="flex md:flex-row md:max-w-3xl rounded-lgshadow-2xl px-6 py-2">
-                    <Image src={bestwestern} className="w-full object-scale-down rounded-t-lg md:rounded-none md:rounded-l-lg" height={128} width={128} alt="Yale" />
+                    <Image src={bestwestern} className="object-scale-down rounded-t-lg md:rounded-none md:rounded-l-lg" height={128} width={128} alt="Yale" />
                     <div className="p-6 flex flex-col justify-start">
                         <h5 className="text-gray-300 text-xl font-medium mb-2">Software Engineering Intern (May - Aug 2021)</h5>
                         <p className="text-gray-400 text-base mb-2">
@@ -73,7 +73,7 @@ export default function Experience() {
             </div>
             <div className="flex justify-center p-2">
                 <div className="flex md:flex-row md:max-w-3xl rounded-lg shadow-2xl px-6 py-2">
-                    <Image src={yalelogo} className="w-full object-scale-down rounded-t-lg md:rounded-none md:rounded-l-lg" height={128} width={128} alt="Yale" />
+                    <Image src={yalelogo} className="object-scale-down rounded-t-lg md:rounded-none md:rounded-l-lg" height={128} width={128} alt="Yale" />
                     <div className="p-6 flex flex-col justify-start">
                         <h5 className="text-gray-300 text-xl font-medium mb-2">Astrophysics Researcher (Jun - Aug 2020)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h5>
                         <p className="text-gray-400 text-base mb-2">
@@ -93,7 +93,7 @@ export default function Experience() {
 
             <div className="flex justify-center p-2">
                 <div className="flex md:flex-row md:max-w-2xl rounded-lg shadow-2xl px-6 py-2">
-                    <Image src={yucg} className="w-full object-scale-down rounded-t-lg md:rounded-none md:rounded-l-lg" height={126} width={126} alt="YUCG" />
+                    <Image src={yucg} className="object-scale-down rounded-t-lg md:rounded-none md:rounded-l-lg" height={126} width={126} alt="YUCG" />
                     <div className="p-6 flex flex-col justify-start">
                         <h5 className="text-gray-300 text-xl font-medium mb-2">Head of Client Affairs & PM (Jan 2022 - Present)</h5>
                         <p className="text-gray-400 text-base mb-2">
@@ -106,7 +106,7 @@ export default function Experience() {
             </div>
             <div className="flex justify-center p-2">
                 <div className="flex md:flex-row md:max-w-2xl rounded-lg shadow-2xl px-6 py-2">
-                    <Image src={upfund} className="w-full object-scale-down rounded-t-lg md:rounded-none md:rounded-l-lg" height={128} width={128} alt="UPFund" />
+                    <Image src={upfund} className="object-scale-down rounded-t-lg md:rounded-none md:rounded-l-lg" height={128} width={128} alt="UPFund" />
                     <div className="p-6 flex flex-col justify-start">
                         <h5 className="text-gray-300 text-xl font-medium mb-2">Head of TMT Investments (Feb 2022 - Present)</h5>
                         <p className="text-gray-400 text-base mb-2">
@@ -121,7 +121,7 @@ export default function Experience() {
 
             <div className="flex justify-center p-2">
                 <div className="flex md:flex-row md:max-w-3xl rounded-lg shadow-2xl px-6 py-2">
-                    <Image src={yhack} className="w-full object-scale-down rounded-t-lg md:rounded-none md:rounded-l-lg" height={128} width={128} alt="YHack" />
+                    <Image src={yhack} className="object-scale-down rounded-t-lg md:rounded-none md:rounded-l-lg" height={128} width={128} alt="YHack" />
                     <div className="p-6 flex flex-col justify-start">
                         <h5 className="text-gray-300 text-xl font-medium mb-2">Co-Director of Tech (Sep 2021 - Present)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h5>
                         <p className="text-gray-400 text-base mb-2">
@@ -134,7 +134,7 @@ export default function Experience() {
             </div>
             <div className="flex justify-center p-2">
                 <div className="flex md:flex-row md:max-w-3xl rounded-lg shadow-2xl px-6 py-2">
-                    <Image src={yso} className="w-full object-scale-down rounded-t-lg md:rounded-none md:rounded-l-lg" height={128} width={128} alt="YES" />
+                    <Image src={yso} className="object-scale-down rounded-t-lg md:rounded-none md:rounded-l-lg" height={128} width={128} alt="YES" />
                     <div className="p-6 flex flex-col justify-start">
                         <h5 className="text-gray-300 text-xl font-medium mb-2">Executive Tour Liaison (Mar 2023 - Present) &nbsp;&nbsp;</h5>
                         <p className="text-gray-400 text-base mb-2">
@@ -147,7 +147,7 @@ export default function Experience() {
             </div>
             <div className="flex justify-center p-2">
                 <div className="flex md:flex-row md:max-w-3xl rounded-lg shadow-2xl px-6 py-2">
-                    <Image src={yes} className="w-full object-scale-down rounded-t-lg md:rounded-none md:rounded-l-lg" height={128} width={128} alt="YES" />
+                    <Image src={yes} className="object-scale-down rounded-t-lg md:rounded-none md:rounded-l-lg" height={128} width={128} alt="YES" />
                     <div className="p-6 flex flex-col justify-start">
                         <h5 className="text-gray-300 text-xl font-medium mb-2">Startup Incubator Board (Sep 2021 - Present) &nbsp;&nbsp;</h5>
                         <p className="text-gray-400 text-base mb-2">
@@ -161,7 +161,7 @@ export default function Experience() {
 
             <div className="flex justify-center p-2">
                 <div className="flex md:flex-row md:max-w-3xl rounded-lg shadow-2xl px-6 py-2">
-                    <Image src={ycs} className="w-full object-scale-down rounded-t-lg md:rounded-none md:rounded-l-lg" height={128} width={128} alt="YCS" />
+                    <Image src={ycs} className="object-scale-down rounded-t-lg md:rounded-none md:rounded-l-lg" height={128} width={128} alt="YCS" />
                     <div className="p-6 flex flex-col justify-start">
                         <h5 className="text-gray-300 text-xl font-medium mb-2">Software Developer (Sep 2021 - Present)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h5>
                         <p className="text-gray-400 text-base mb-2">
