@@ -1,12 +1,9 @@
 import { Navbar } from "../components/navbar";
 import Image from "next/image";
-import musicizer from "./resources/musicizer.png";
 import bestwestern from "./resources/bestwestern.png";
 import yhack from "./resources/yhack.png";
 import yes from "./resources/yes.png";
-import yudi from "./resources/yudi.png";
 import yalelogo from "./resources/yalelogo.png";
-import yuqc from "./resources/yuqc.png";
 import ycs from "./resources/ycs.png";
 import yucg from "./resources/yucg.jpeg"
 import upfund from "./resources/upfund.png";
@@ -17,7 +14,6 @@ import yso from "./resources/yso.jpg";
 
 export default function Experience() {
     return (
-
         <div className="min-h-screen bg-black-800">
             <Navbar />
             <div className="flex mt-4 px-8 mr-4 p-4 text-white justify-center items-center">
@@ -30,7 +26,7 @@ export default function Experience() {
                     <Image src={jpl}
                         className="w-full object-scale-down rounded-t-lg md:rounded-none md:rounded-l-lg" height={144} width={144} alt="NASA JPL" />
                     <div className="p-6 flex flex-col justify-start">
-                        <h5 className="text-gray-300 text-xl font-medium mb-2">Software Developer Intern (Jun 2023 - Present)</h5>
+                        <h5 className="text-gray-300 text-xl font-medium mb-2">Software Developer Intern (Jun 2023 - Aug 2023)</h5>
                         <p className="text-gray-400 text-base mb-2">
                             NASA Jet Propulsion Laboratory                    </p>
                         <p className="text-gray-400 text-sm mb-2">Pasadena, CA</p>

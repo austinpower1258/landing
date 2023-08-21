@@ -6,6 +6,8 @@ import computervision from "./resources/computervision.jpg";
 import nif2020 from './resources/t17img.png';
 import blackhole from './resources/blackhole.png';
 import docs from './resources/docs.jpeg';
+import repliano from './resources/repliano.png';
+import metascratch from './resources/metascratch.png';
 
 export default function Projects() {
   return (
@@ -31,37 +33,26 @@ export default function Projects() {
             <Image className="bg-cover" src={musicizer} height={300} width={300} alt="" />
           </div>
         </div>
-        <div className="mt-6 md:flex space-x-6">
+        <div className="mt-6 sm:flex space-x-6">
           <div className="shadow-md bg-black border">
-            <Image src={computervision} width={450} height={325} alt="" />
+            <Image src={metascratch} alt="Metascratch" />
             <div className="px-6">
-              <h1 className="mt-3 text-gray-800 text-2xl font-bold my-2"><Link href="https://www.bestwestern.com/en_US.html">Automated Social Distancing Tracker in Hotels</Link></h1>
-              <p className="text-gray-500 mb-2">A computer vision software solution for the hospitality industry that uses computer vision to enforce social distancing during the COVID-19 pandemic. Tracked number of social distancing violations using Python&apos;s OpenCV package.</p>
+              <h1 className="mt-3 text-gray-800 text-2xl font-bold my-2"><Link href="https://github.com/austinpower1258/metascratch">Metascratch</Link></h1>
+              <p className="text-gray-500 mb-2">The metaverse of block-based programming languages or the 3D version of scratch. A real-time collaborative 3D version of Scratch, a block-rendering playground metaverse with a live programming editor that utilizes a custom-built vanilla JS compiler that renders blocks using Liveblocks and with real-time collaboration using YJS.</p>
               <div className="flex justify-between mt-4">
-                <span className="font-thin text-sm">Sep 2020</span>
-                <span className="mb-2 text-gray-800 font-bold py-4 hover:underline"><Link href="https://github.com/austinpower1258/sdv-cv">See more</Link></span>
+                <span className="font-thin text-sm">Aug 2022</span>
+                <span className="mb-2 text-gray-800 font-bold py-4 hover:underline"><Link href="https://drive.google.com/file/d/1kcfOrbRpTyrIMW-bqjHdpqTd-j8py552/view?usp=sharing">See demo</Link></span>
               </div>
             </div>
           </div>
           <div className="shadow-md bg-black border">
-            <Image className="" src={nif2020} alt="" />
+            <Image src={repliano} alt="" />
             <div className="px-6">
-              <h1 className="mt-3 text-gray-800 text-2xl font-bold my-2"><Link href="https://yspa.yale.edu/">Supernovae Research</Link></h1>
-              <p className="text-gray-500 mb-2">Modeling the light curves of extragalactic supernovae 2020nif through photometric filters. Computed results of Type II-L classification and co-authored final paper to present in a conference hosted by the Yale Department of Astronomy. </p>
+              <h1 className="mt-3 text-gray-800 text-2xl font-bold my-2"><Link href="https://github.com/austinpower1258/repliano">Repliano</Link></h1>
+              <p className="text-gray-500 mb-2">A real-time collaborative music composition software proof-of-concept that allows for quick compositions and live performances with visual blocks, musical playback, and tempo modifications. Digital real-time collaborative piano board that allows you to compose piano music with a custom metronome for tempo, using websockets and ToneJS.</p>
               <div className="flex justify-between mt-4">
-                <span className="font-thin text-sm">Aug 2020</span>
-                <span className="mb-2 text-gray-800 py-4 font-bold pp-2 hover:underline"><Link href="https://drive.google.com/file/d/1wbFlBgX4IxZLxqvwu9eekNs7PPOgDsj5/view">See more</Link></span>
-              </div>
-            </div>
-          </div>
-          <div className="shadow-md bg-black border">
-            <Image src={blackhole} alt="" />
-            <div className="px-6">
-              <h1 className="mt-3 text-gray-800 text-2xl font-bold my-3"><Link href="https://yale.edu">The First Black Hole Image by the Event Horizon Telescope &nbsp;</Link></h1>
-              <p className="text-gray-500 mb-2 py-1">The first image of a supermassive black hole at the center of the Messier 87 galaxy was successfully imaged by the Event Horizon Telescope in 2017, released in April 2019. My paper aims to synthesize various areas of black hole research and future implications of black hole imaging on our fundamental understanding of gravity & the universe.</p>
-              <div className="flex justify-between mt-6">
-                <span className="font-thin text-sm">Dec 2021</span>
-                <span className="mb-2 text-gray-800 font-bold py-4 pp-2 hover:underline"><Link href="https://drive.google.com/file/d/15f3L9kEIZQkX9NwVjkFTWEP6Oth1RRQ2/view?usp=sharing">See more</Link></span>
+                <span className="font-thin text-sm">Jun 2022</span>
+                <span className="mb-2 text-gray-800 font-bold py-4 hover:underline"><Link href="https://drive.google.com/file/d/1rUMFNN1iRI7CWQ-eNDbM1VrAxjtTVxJ-/view?usp=sharing">See demo</Link></span>
               </div>
             </div>
           </div>
@@ -77,6 +68,41 @@ export default function Projects() {
             <div className="flex justify-between mb-2">
               <span className="font-thin text-sm">Jun 2021</span>
               <span className="mb-2 py-4 text-gray-800 font-bold hover:underline"><Link href="https://twitter.com/austinywang/status/1424288644181893122?s=20">See demo</Link></span>
+            </div>
+          </div>
+        </div>
+        <div className="mt-6 md:flex space-x-6">
+          <div className="shadow-md bg-black border">
+            <Image src={computervision} width={450} height={325} alt="" />
+            <div className="px-6">
+              <h1 className="mt-6 text-gray-800 text-2xl font-bold my-2"><Link href="https://www.bestwestern.com/en_US.html">Automated Social Distancing Tracker in Hotels</Link></h1>
+              <p className="text-gray-500 mb-2">A computer vision software solution for the hospitality industry that uses computer vision to enforce social distancing during the COVID-19 pandemic. Tracked number of social distancing violations using Python&apos;s OpenCV package.</p>
+              <div className="flex justify-between mt-4">
+                <span className="font-thin text-sm">Sep 2020</span>
+                <span className="mb-2 text-gray-800 font-bold py-4 hover:underline"><Link href="https://github.com/austinpower1258/sdv-cv">See code</Link></span>
+              </div>
+            </div>
+          </div>
+          <div className="shadow-md bg-black border">
+            <Image className="" src={nif2020} alt="" />
+            <div className="px-6">
+              <h1 className="mt-6 text-gray-800 text-2xl font-bold my-2"><Link href="https://yspa.yale.edu/">Supernovae Research</Link></h1>
+              <p className="text-gray-500 mb-2">Modeling the light curves of extragalactic supernovae 2020nif through photometric filters. Computed results of Type II-L classification and co-authored final paper to present in a conference hosted by the Yale Department of Astronomy. </p>
+              <div className="flex justify-between mt-4">
+                <span className="font-thin text-sm">Aug 2020</span>
+                <span className="mb-2 text-gray-800 py-4 font-bold pp-2 hover:underline"><Link href="https://drive.google.com/file/d/1wbFlBgX4IxZLxqvwu9eekNs7PPOgDsj5/view">See paper</Link></span>
+              </div>
+            </div>
+          </div>
+          <div className="shadow-md bg-black border">
+            <Image src={blackhole} alt="" />
+            <div className="px-6">
+              <h1 className="mt-3 text-gray-800 text-2xl font-bold my-3"><Link href="https://yale.edu">The First Black Hole Image by the Event Horizon Telescope &nbsp;</Link></h1>
+              <p className="text-gray-500 mb-2 py-1">The first image of a supermassive black hole at the center of the Messier 87 galaxy was successfully imaged by the Event Horizon Telescope in 2017, released in April 2019. My paper aims to synthesize various areas of black hole research and future implications of black hole imaging on our fundamental understanding of gravity & the universe.</p>
+              <div className="flex justify-between mt-6">
+                <span className="font-thin text-sm">Dec 2021</span>
+                <span className="mb-2 text-gray-800 font-bold py-4 pp-2 hover:underline"><Link href="https://drive.google.com/file/d/15f3L9kEIZQkX9NwVjkFTWEP6Oth1RRQ2/view?usp=sharing">See paper</Link></span>
+              </div>
             </div>
           </div>
         </div>
