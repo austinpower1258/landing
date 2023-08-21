@@ -12,7 +12,8 @@ export default function Home() {
   return (
     <div className="bg-black min-h-screen content-center">
       <Head>
-        <title>Landing</title>
+        <title>aw</title>
+        <link rel="icon" href='/' />
       </Head>
       <Navbar className="fixed" />
 
