@@ -26,11 +26,11 @@ export default function Projects() {
             <p className="text-gray-500 mb-2 md:mb-6">Musicizer is a lifestyle-driven, complimentary music-streaming Flutter application that uses real-time tempo modification of music synced with physical intensity to incentivize running at a consistent pace.</p>
             <div className="flex justify-between mb-2">
               <span className="font-thin text-sm">Jan 2021</span>
-              <span className="sm:block hidden mb-2 text-gray-800 font-bold"><Link href="https://drive.google.com/file/d/1F6ghUvvP9Tlr9KaD2RtLNrSfPzKvT-wv/view" className="hover:text-white hover:underline">See demo</Link></span>
+              <span className="mb-2 text-gray-800 font-bold"><Link href="https://drive.google.com/file/d/1F6ghUvvP9Tlr9KaD2RtLNrSfPzKvT-wv/view" className="hover:text-white hover:underline">See demo</Link></span>
             </div>
           </div>
           <div className="p-6">
-            <Image className="bg-cover" src={musicizer} height={300} width={300} alt="" />
+            <Image className="bg-cover" src={musicizer} height={250} width={250} alt="" />
           </div>
         </div>
         <div className="mt-6 sm:flex space-x-6">
