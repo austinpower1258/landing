@@ -6,6 +6,7 @@ import Link from "next/link";
 import github_logo from '../pages/resources/github-logo.svg';
 import linkedin_logo from '../pages/resources/linkedin-logo.svg';
 import twitter_logo from '../pages/resources/twitter-logo.svg';
+import styles from './index.module.css';
 
 export default function Home() {
   return (
@@ -19,10 +20,8 @@ export default function Home() {
         <div className="flex-row">
           <Image
             src={austin_pfp}
-            className="object-cover"
-            style={{ width: '256px', height: '256px', borderRadius: '50%' }}
-            height={256}
-            width={256}
+            className={`object-cover ${styles.profileImage}`}
+            style={styles.object}
             alt="Austin Wang" />
         </div>
 
@@ -63,7 +62,7 @@ export default function Home() {
 
       </main >
 
-      <div className="p-8 flex place-content-center font-sm text-gray-600">
+      <div className={styles.description}>
         Building bold beliefs into 10x breakthroughs for a better world. Check out my&nbsp;
         <a href="../projects" className="underline hover:text-white">projects</a>.
       </div>

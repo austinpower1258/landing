@@ -65,3 +65,32 @@
   opacity: 0.65;
 }
 
+.profileImage {
+  width: 256px;
+  height: 256px;
+  border-radius: 50%;
+}
+
+@media (max-width: 768px) {
+  .profileImage {
+    width: auto;
+    height: auto;
+    border-radius: 50%;
+  }
+}
+
+.description {
+  padding: 8px;
+  display: flex;
+  justify-content: center;
+  font-size: 1rem;
+  @apply text-gray-600;
+}
+
+@media (max-width: 768px) {
+  .description {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
