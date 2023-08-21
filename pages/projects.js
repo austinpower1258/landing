@@ -35,9 +35,11 @@ export default function Projects() {
         </div>
         <div className="mt-6 sm:flex space-x-6">
           <div className="shadow-md bg-black border">
-            <Image src={metascratch} alt="Metascratch" />
+            <div className="relative h-80">
+              <Image src={metascratch} alt="Metascratch" objectFit="cover" layout="fill" />
+            </div>
             <div className="px-6">
-              <h1 className="mt-3 text-gray-800 text-2xl font-bold my-2"><Link href="https://github.com/austinpower1258/metascratch">Metascratch</Link></h1>
+              <h1 className="mt-6 text-gray-800 text-2xl font-bold my-2"><Link href="https://github.com/austinpower1258/metascratch">Metascratch</Link></h1>
               <p className="text-gray-500 mb-2">The metaverse of block-based programming languages or the 3D version of scratch. A real-time collaborative 3D version of Scratch, a block-rendering playground metaverse with a live programming editor that utilizes a custom-built vanilla JS compiler that renders blocks using Liveblocks and with real-time collaboration using YJS.</p>
               <div className="flex justify-between mt-4">
                 <span className="font-thin text-sm">Aug 2022</span>
@@ -46,9 +48,11 @@ export default function Projects() {
             </div>
           </div>
           <div className="shadow-md bg-black border">
-            <Image src={repliano} alt="" />
+            <div className="relative h-80">
+              <Image src={repliano} alt="Repliano" objectFit="cover" layout="fill" />
+            </div>
             <div className="px-6">
-              <h1 className="mt-3 text-gray-800 text-2xl font-bold my-2"><Link href="https://github.com/austinpower1258/repliano">Repliano</Link></h1>
+              <h1 className="mt-6 text-gray-800 text-2xl font-bold my-2"><Link href="https://github.com/austinpower1258/repliano">Repliano</Link></h1>
               <p className="text-gray-500 mb-2">A real-time collaborative music composition software proof-of-concept that allows for quick compositions and live performances with visual blocks, musical playback, and tempo modifications. Digital real-time collaborative piano board that allows you to compose piano music with a custom metronome for tempo, using websockets and ToneJS.</p>
               <div className="flex justify-between mt-4">
                 <span className="font-thin text-sm">Jun 2022</span>
