@@ -18,7 +18,7 @@ export default function Experience() {
             <Navbar />
             <div className="flex mt-4 px-8 mr-4 p-4 text-white justify-center items-center">
                 <h1 className="text-4xl font-bold mt-6">
-                    Professional Experience
+                    Experience
                 </h1>
             </div>
             <div className="flex justify-center p-2">

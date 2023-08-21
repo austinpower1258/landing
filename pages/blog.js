@@ -46,7 +46,7 @@ export default function Blog({ posts }) {
 
                                 <p className={styles.postDescription}>{date}</p>
                                 <Link href={`/${post.id}`} legacyBehavior>
-                                    <a> Read post →</a>
+                                    <a className="hover:text-white"> Read post →</a>
                                 </Link>
                             </li>
                         );
