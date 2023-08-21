@@ -32,6 +32,10 @@
   margin-bottom: 20px;
 }
 
+.back:hover {
+  color: white;
+}
+
 .bold {
   font-weight: bold;
 }
