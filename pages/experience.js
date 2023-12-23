@@ -11,6 +11,7 @@ import chesscom from "./resources/chesscom.png";
 import datacy from "./resources/datacy.png";
 import jpl from "./resources/jpl.jpg";
 import yso from "./resources/yso.jpg";
+import google from "./resources/google-logo.png";
 
 export default function Experience() {
     return (
@@ -20,6 +21,19 @@ export default function Experience() {
                 <h1 className="text-4xl font-bold mt-6">
                     Experience
                 </h1>
+            </div>
+            <div className="flex justify-center p-2">
+                <div className="flex mt-4 md:flex-row md:max-w-2xl rounded-lg shadow-2xl px-6 py-2">
+                    <Image src={google}
+                        className="object-scale-down rounded-t-lg md:rounded-none md:rounded-l-lg" height={144} width={144} alt="Google" />
+                    <div className="p-6 flex flex-col justify-start">
+                        <h5 className="text-gray-300 text-xl font-medium mb-2">Software Engineer Intern (Jun 2024 - Aug 2024)</h5>
+                        <p className="text-gray-400 text-base mb-2">
+                            Google
+                        </p>
+                        <p className="text-gray-400 text-sm mb-2">Sunnyvale, CA</p>
+                    </div>
+                </div>
             </div>
             <div className="flex justify-center p-2">
                 <div className="flex mt-4 md:flex-row md:max-w-2xl rounded-lg shadow-2xl px-6 py-2">
